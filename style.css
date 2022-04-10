@@ -134,7 +134,7 @@ nav{
 #home::before{
     content: "";
     position: absolute;
-    background: url('../Images/Guadalupes-gypsum-view-FOR-WEB.jpg') no-repeat center center/cover;
+    background: url('/Images/Guadalupes-gypsum-view-FOR-WEB.jpg') no-repeat center center/cover;
     height: 250px;
     width: 100%;
     z-index: -1;
@@ -278,13 +278,13 @@ nav{
     background-size: cover;
 }
 .card-1{
-    background-image: url('/Images/Our work/ice\ Mountain.jpg');
+    background-image: url('/Images/ice\ Mountain.jpg');
 }
 .card-2{
-    background-image: url('/Images/Our work/northern\ lights.jpeg');
+    background-image: url('/Images/northern\ lights.jpeg');
 }
 .card-3{
-    background-image: url('/Images/Our work/mountains_clouds.jpg');
+    background-image: url('/Images/mountains_clouds.jpg');
 }
 .card h2, .card h1, .card ul li{
     list-style: none;
