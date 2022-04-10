@@ -299,15 +299,15 @@ nav {
 }
 
 .card-1 {
-    background-image: url('assets/Images/iceMountain.JPG');
+    background-image: url('../assets/Images/iceMountain.JPG');
 }
 
 .card-2 {
-    background-image: url('assets/Images/northernlights.JPEG');
+    background-image: url('../assets/Images/northernlights.JPEG');
 }
 
 .card-3 {
-    background-image: url('assets/Images/mountains_clouds.JPG');
+    background-image: url('../assets/Images/mountains_clouds.JPG');
 }
 
 .card h2,
