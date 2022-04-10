@@ -1,13 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Poppins', sans-serif;
 }
+
 /* NavBar */
 
-nav{
+nav {
     background-color: black;
     display: flex;
     padding: 0% 1%;
@@ -15,22 +16,26 @@ nav{
     align-items: center;
     color: #fff;
 }
-.nav_links{
-    flex:1;
+
+.nav_links {
+    flex: 1;
     text-align: left;
 }
-.nav_links ul li{
+
+.nav_links ul li {
     list-style: none;
     display: inline-block;
     padding: 9px 12px;
     position: relative;
 }
-.nav_links ul li a{
-    color:white;
+
+.nav_links ul li a {
+    color: white;
     text-decoration: none;
     font-size: 15px;
 }
-.nav_links ul li::after{
+
+.nav_links ul li::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -39,11 +44,13 @@ nav{
     margin: auto;
     transition: 0.5s;
 }
-.nav_links ul li:hover::after{
-    width:100%;
+
+.nav_links ul li:hover::after {
+    width: 100%;
 }
-@media (max-width: 700px){
-    .nav_links{
+
+@media (max-width: 700px) {
+    .nav_links {
         position: absolute;
         text-align: right;
         background-color: #f44336;
@@ -54,8 +61,9 @@ nav{
         text-align: left;
         z-index: 2;
     }
-    .nav_links ul li{
-        display:block;
+
+    .nav_links ul li {
+        display: block;
     }
 }
 
@@ -124,126 +132,134 @@ nav{
 } */
 
 /* Home Section */
-#home{
+#home {
     display: flex;
     flex-direction: column;
     height: 250px;
     justify-content: center;
     color: white;
 }
-#home::before{
+
+#home::before {
     content: "";
     position: absolute;
-    background: url('../assets/Images/Guadalupes-gypsum-view-FOR-WEB.jpg') no-repeat center center/cover;
+    background: url('/assets/Images/Guadalupes-gypsum-view-FOR-WEB.jpg') no-repeat center center/cover;
     height: 250px;
     width: 100%;
     z-index: -1;
 }
-.main{
+
+.main {
     display: flex;
     margin-top: 170px;
 }
-.headings{
+
+.headings {
     font-size: 1.5rem;
     margin: 10px;
-    padding: 4px 10px ;
+    padding: 4px 10px;
     background-color: black;
     border: 5px solid black;
 }
+
 /* Our Team Section */
 
 
 .ourTeam {
     margin: 20px 10px;
     color: black;
-  }
-  
-  .Team {
+}
+
+.Team {
     font-size: 30px;
     margin: 10px 0px 20px;
-  }
-  .teamText{
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
-  }
-  
-  .profiles {
+}
+
+.teamText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.profiles {
     display: flex;
     justify-content: space-between;
     margin: 20px 10px;
-  }
-  
-  .profile {
+}
+
+.profile {
     display: flex;
     flex-direction: column;
     flex-basis: 260px;
-  }
-  
-  .profile .profile-img {
+}
+
+.profile .profile-img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
     cursor: pointer;
     transition: 400ms;
-  }
-  
-  
-  .user-name {
+}
+
+
+.user-name {
     margin-top: 30px;
     font-size: 35px;
     margin: 0px 0px 20px 10px
-  }
-  
-  .profile h5 {
+}
+
+.profile h5 {
     display: flex;
     justify-content: center;
-    margin:0px 45px 20px 0px; 
+    margin: 0px 45px 20px 0px;
     font-size: 18px;
     font-weight: 50;
-  }
-  
-  @media only screen and (max-width: 1150px) {
+}
+
+@media only screen and (max-width: 1150px) {
     .profiles {
-      flex-direction: column;
+        flex-direction: column;
     }
+
     .profile {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     .profile p {
-      text-align: center;
-      margin: 20px 60px 80px 60px;
-      font-size: 20px;
+        text-align: center;
+        margin: 20px 60px 80px 60px;
+        font-size: 20px;
     }
-    .user-name, .profile h5{
+
+    .user-name,
+    .profile h5 {
         margin: 0px 45px 30px 50px;
     }
-  }
-  
-  @media only screen and (max-width: 900px) {
+}
+
+@media only screen and (max-width: 900px) {
     .Team {
-      font-size: 40px;
-      text-align: center;
+        font-size: 40px;
+        text-align: center;
     }
-  
+
     .profiles {
-      margin: 20px 0;
+        margin: 20px 0;
     }
-  
+
     .profile p {
-      margin: 20px 10px 80px 10px;
+        margin: 20px 10px 80px 10px;
     }
-  }
-  
+}
+
 
 
 /* Our Work Section */
-#ourWork{
+#ourWork {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,7 +268,8 @@ nav{
     height: 500px;
     background-color: rgba(7, 6, 6, 0.9);
 }
-.ourWorkText{
+
+.ourWorkText {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
@@ -260,85 +277,103 @@ nav{
     color: white;
     padding: 10px;
 }
-.ourWorkText p{
+
+.ourWorkText p {
     height: 100%;
     margin-top: 20px;
     color: white;
 }
-.card{
+
+.card {
     flex: 1;
     display: flex;
     flex-direction: column;
     background-color: white;
     margin: 5px;
 }
-.card-image{
+
+.card-image {
     height: 200px;
     margin-bottom: 15px;
     background-size: cover;
 }
-.card-1{
-    background-image: url('./assets/Images/ice\ Mountain.jpg');
+
+.card-1 {
+    background-image: url('/assets/Images/ice\ Mountain.jpg');
 }
-.card-2{
-    background-image: url('./assets/Images/northern\ lights.jpeg');
+
+.card-2 {
+    background-image: url('/assets/Images/northern\ lights.jpeg');
 }
-.card-3{
-    background-image: url('./assets/Images/mountains_clouds.jpg');
+
+.card-3 {
+    background-image: url('/assets/Images/mountains_clouds.jpg');
 }
-.card h2, .card h1, .card ul li{
+
+.card h2,
+.card h1,
+.card ul li {
     list-style: none;
     margin: 5px 5px 10px;
 }
-.description{
+
+.description {
     width: 100px;
 }
-@media screen and (max-width: 768px){
-    #ourWork{
+
+@media screen and (max-width: 768px) {
+    #ourWork {
         flex-direction: column;
         height: 100%;
     }
-    .card{
+
+    .card {
         width: 100%;
     }
 
 }
+
 /*  */
-.plus{
+.plus {
     position: relative;
     display: flex;
     justify-content: flex-end;
-    background-color:#e4e1e1;
+    background-color: #e4e1e1;
 }
-.plus i{
+
+.plus i {
     position: relative;
-    top:-25px;
+    top: -25px;
     background-color: #fff;
     border-radius: 50%;
     color: #0db46f;
     margin-right: 15px;
     font-size: 45px;
 }
+
 /* Contact Us */
-.contactUs{
+.contactUs {
     padding: 20px;
     background-color: #e4e1e1;
     height: 450px;
 }
-.contactUs .container{
+
+.contactUs .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
 }
-.contactUs .container h1{
+
+.contactUs .container h1 {
     position: relative;
     color: black;
     font-weight: 500;
     margin-bottom: 15px;
-    
+
 }
-.container h1::before{
+
+.container h1::before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -347,45 +382,55 @@ nav{
     height: 5px;
     background: #0db46f;
 }
-.contactUs h2,p{
+
+.contactUs h2,
+p {
     margin: 15px 0px 15px;
 }
+
 /* Address */
-.info{
+.info {
     position: relative;
     margin-top: 10px;
 }
-.secaboutus{
+
+.secaboutus {
     margin-top: 25px;
 }
+
 .secaboutus p {
     color: black;
 }
-.info li{
+
+.info li {
     display: flex;
     margin-bottom: 16px;
     color: #111;
 }
-.info li span:nth-child(1){
+
+.info li span:nth-child(1) {
     color: #fff;
     font-size: 20px;
-    margin-right: 10px; 
+    margin-right: 10px;
 
 }
-.info li span{
+
+.info li span {
     color: black;
 }
-.info li a{
+
+.info li a {
     color: black;
 
 }
-.info li span i{
+
+.info li span i {
     color: #0db46f;
 
 }
 
 /* Form */
-.form{
+.form {
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -395,11 +440,13 @@ nav{
     margin-top: 25px;
 
 }
-form .text_field{
+
+form .text_field {
     border-bottom: 2px solid #adadad;
     margin: 20px 10px 0px;
 }
-.text_field input{
+
+.text_field input {
     width: 100%;
     padding: 0 5px;
     height: 40px;
@@ -408,19 +455,22 @@ form .text_field{
     background: none;
     outline: none;
 }
-.checkbox{
+
+.checkbox {
     width: 20%;
     margin: 10px 5px 10px;
 }
-.btns{
+
+.btns {
     position: relative;
     display: flex;
     justify-content: flex-end;
     margin-bottom: 5px;
 }
-.btn{
+
+.btn {
     position: relative;
-    top:-35px;
+    top: -35px;
     cursor: pointer;
     background-color: #000;
     color: #fff;
@@ -428,8 +478,9 @@ form .text_field{
     height: 35px;
     width: 10%;
 }
-@media only screen and (max-width: 900px){
-    .contactUs{
+
+@media only screen and (max-width: 900px) {
+    .contactUs {
         height: 100%;
         width: 100%;
         margin-bottom: 25px;
@@ -437,54 +488,61 @@ form .text_field{
 }
 
 /* Footer */
-footer{
+footer {
     bottom: 0;
     height: auto;
-    background-color:black;
+    background-color: black;
     flex-wrap: wrap;
     color: white;
-    padding-top:40px ;
+    padding-top: 40px;
 }
-.followUs{
+
+.followUs {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
-.box{
+
+.box {
     transition: all .5s ease;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#0db46f ;
+    background-color: #0db46f;
     width: 40px;
     height: 30px;
-    margin: 0px 2px ;
+    margin: 0px 2px;
 }
-.socials{
+
+.socials {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
-.socials li{
-    margin: 5px 10px ;
+
+.socials li {
+    margin: 5px 10px;
 }
-.socials li a i{
+
+.socials li a i {
     padding: 10px;
     transition: all .5s ease;
     text-decoration: none;
     color: #fff;
     font-size: 1.1rem;
 }
-.followUs ul .box:hover{
+
+.followUs ul .box:hover {
     background-color: #fff;
     color: black;
     box-shadow: 0 0 10px white;
 }
-.socials li a i:hover{
+
+.socials li a i:hover {
     color: #000;
 }
 
@@ -492,12 +550,12 @@ footer{
 
 
 
-@media screen and (min-width:374px){
-    .header{
+@media screen and (min-width:374px) {
+    .header {
         width: 100%;
         height: 100%;
     }
-    
+
 }
 
 /* phone resopnive */
