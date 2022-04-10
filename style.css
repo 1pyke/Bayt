@@ -278,13 +278,13 @@ nav{
     background-size: cover;
 }
 .card-1{
-    background-image: url('./Images/Our work/ice\ Mountain.jpg');
+    background-image: url('/Images/Our work/ice\ Mountain.jpg');
 }
 .card-2{
-    background-image: url('./Images/Our work/northern\ lights.jpeg');
+    background-image: url('/Images/Our work/northern\ lights.jpeg');
 }
 .card-3{
-    background-image: url('./Images/Our work/mountains_clouds.jpg');
+    background-image: url('/Images/Our work/mountains_clouds.jpg');
 }
 .card h2, .card h1, .card ul li{
     list-style: none;
