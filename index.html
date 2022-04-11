@@ -8,29 +8,51 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;1,100;1,600&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;1,100;1,600&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/10269a711e.js" crossorigin="anonymous"></script>
     <title>Bayt Task</title>
 </head>
 
 <body>
-    <header class="header">
-        <nav>
-            <i class="fa-solid fa-house-chimney"></i>Logo</li>
-            <div class="nav_links">
-                <ul>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Price</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Team</a></li>
-                </ul>
-
+    <header>
+        <nav class="navbar">
+            <div class="brand-titile">
+                <img src="./assets/Images/bayt-logo.jpg" alt="">
             </div>
-
-        </nav>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#Team">Team</a></li>
+                    <li><a href="#ourWork">Work</a></li>
+                    <li><a href="#">Price</a></li>
+                    <div class="header">
+                        <div class="dropdown" data-dropdown>
+                          <button class="link" data-dropdown-button>Dropdown <i class="fa-solid fa-caret-down"></i>
+                        </button>
+                          <div class="dropdown-menu information-grid">
+                            <div>
+                              <div class="dropdown-heading">Free Products </div>
+                              <div class="dropdown-links">
+                                <a href="#" class="link">All</a>
+                                <a href="#" class="link">Latest</a>
+                                <a href="#" class="link">Popular</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </ul>
+                </div>
+            </nav>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
         <section id="home">
             <div class="main">
                 <span class="headings">Talentera</span>
@@ -42,29 +64,29 @@
                 <h3>Meet the team - our office rats:</h3>
             </div>
 
-            <div class="profiles">
+            <div class="profiles" id="Team">
                 <div class="profile">
-                    <img src="./assets/Images/Team/mario.png" class="profile-img">
+                    <img src="./assets/Images/Team/billjpg.jpg" class="profile-img">
 
-                    <h3 class="user-name">Mario Mario</h3>
+                    <h3 class="user-name">Bill Gates</h3>
                     <h5>Web Designer</h5>
                 </div>
                 <div class="profile">
-                    <img src="./assets/Images/Team/mario.png" class="profile-img">
+                    <img src="./assets/Images/Team/elon muskjpeg.jpeg" class="profile-img">
 
-                    <h3 class="user-name">Mario Mario</h3>
+                    <h3 class="user-name">Elon Musk</h3>
                     <h5>Support</h5>
                 </div>
                 <div class="profile">
-                    <img src="./assets/Images/Team/luigi.png" class="profile-img">
+                    <img src="./assets/Images/Team/Jeff_Bezos.jpg" class="profile-img">
 
-                    <h3 class="user-name">Luigi Luigi</h3>
+                    <h3 class="user-name">Jeff Bazos</h3>
                     <h5>Boss man</h5>
                 </div>
                 <div class="profile">
-                    <img src="./assets/Images/Team/mario.png" class="profile-img">
+                    <img src="./assets/Images/Team/Joana-Cook.jpg" class="profile-img">
 
-                    <h3 class="user-name">Luigi Luigi</h3>
+                    <h3 class="user-name">Joana Cook</h3>
                     <h5>Fixer</h5>
                 </div>
             </div>
@@ -186,6 +208,7 @@
             </div>
         </footer>
     </header>
+    <script src="app.js"></script>
 </body>
 
 </html>
