@@ -22,4 +22,4 @@ Styles include colors, borders, shadows and much more.
 
 ## Here is the app on Sandbox
 
-# [BAYT](https://codesandbox.io/s/nervous-fast-0yo7o1)
+# [BAYT](https://codesandbox.io/s/sweet-sun-yorzeo?file=/style.css)
