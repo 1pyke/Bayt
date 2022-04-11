@@ -16,6 +16,12 @@ Styles include colors, borders, shadows and much more.
 - Go-Live-Server extention to run the App
 
   ***
+  
+## Website images 
+![]()
+![]()
+![]()
+![]()
 
 ## Here is the app deployed on github pages
 
