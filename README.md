@@ -14,7 +14,7 @@ Styles include colors, borders, shadows and much more.
 
 - JavaScript moved to separate file
 
-- Go-Live-Server extention to run the App
+- Images moved to saparate folder
 
   ***
 
