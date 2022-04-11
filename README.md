@@ -1,12 +1,13 @@
 This repository is a Task for Bayt.com:
 
-# Langues used HTML-CSS-JS
+# Languages used HTML-CSS-JS
 
 ## Starter Html file
 
 Web pages are defined with Html for content and CSS for style. Started by creating a file with the 'html'.
 
 # []('')
+
 ## Html style
 
 Styles include colors, borders, shadows and much more.
@@ -16,8 +17,9 @@ Styles include colors, borders, shadows and much more.
 - Go-Live-Server extention to run the App
 
   ***
-  
-## Website images 
+
+## Website images
+
 ![]()
 ![]()
 ![]()
@@ -30,5 +32,3 @@ Styles include colors, borders, shadows and much more.
 ## Here is the app on Sandbox
 
 # [BAYT](https://codesandbox.io/s/sweet-sun-yorzeo?file=/style.css)
-
-
