@@ -18,17 +18,17 @@ Styles include colors, borders, shadows and much more.
   ***
   
 ## Website images 
-![]()
-![]()
-![]()
-![]()
+![](./assets/1.jpg)
+![](./assets/2.jpg)
+![](./assets/3.jpg)
+![](./assets/4.jpg)
 
 ## Here is the app deployed on github pages
 
-# [BAYT](https://1pyke.github.io/Bayt/)
+- [BAYT](https://1pyke.github.io/Bayt/)
 
 ## Here is the app on Sandbox
 
-# [BAYT](https://codesandbox.io/s/sweet-sun-yorzeo?file=/style.css)
+- [BAYT](https://codesandbox.io/s/sweet-sun-yorzeo?file=/style.css)
 
 
