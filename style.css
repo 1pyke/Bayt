@@ -206,7 +206,7 @@
 #home::before {
     content: "";
     position: absolute;
-    background: url('assets/images/Guadalupes-gypsum-view-FOR-WEB.jpg') no-repeat center center/cover;
+    background: url('../assets/images/Guadalupes-gypsum-view-FOR-WEB.jpg') no-repeat center center/cover;
     height: 250px;
     width: 100%;
     z-index: -1;
@@ -371,15 +371,15 @@
 }
 
 .card-1 {
-    background-image: url('assets/images/iceMountain.jpg');
+    background-image: url('../assets/images/iceMountain.jpg');
 }
 
 .card-2 {
-    background-image: url('assets/images/northernlights.jpeg');
+    background-image: url('../assets/images/northernlights.jpeg');
 }
 
 .card-3 {
-    background-image: url('assets/images/mountains_clouds.jpg');
+    background-image: url('../assets/images/mountains_clouds.jpg');
 }
 
 .card h2,
