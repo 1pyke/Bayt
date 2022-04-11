@@ -371,15 +371,15 @@
 }
 
 .card-1 {
-    background-image: url('../assets/Images/iceMountain.JPG');
+    background-image: url('/assets/Images/iceMountain.jpg');
 }
 
 .card-2 {
-    background-image: url('../assets/Images/northernlights.JPEG');
+    background-image: url('/assets/Images/northernlights.jpeg');
 }
 
 .card-3 {
-    background-image: url('../assets/Images/mountains_clouds.JPG');
+    background-image: url('/assets/Images/mountains_clouds.jpg');
 }
 
 .card h2,
