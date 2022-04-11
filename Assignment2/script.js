@@ -24,8 +24,6 @@ console.log(allAreLessThanSeven);
 
 
 
-
-
 // Assignment #2 second question
 
 
