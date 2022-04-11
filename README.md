@@ -20,8 +20,6 @@ Styles include colors, borders, shadows and much more.
 
   <<<<<<< HEAD
 
-## Website images
-
 ![]()
 ![]()
 ![]()
